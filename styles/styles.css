@@ -1,0 +1,81 @@
+html {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.content {
+  margin-top: 70px;
+  margin-left: 80px;
+  padding: 0 6px 6px 10px;
+}
+
+.Header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  height: 70px;
+  background-color: purple;
+}
+
+.Logo {
+  height: 60px;
+  width: 150px;
+  padding: 5px;
+}
+
+.Logo a {
+  text-decoration: none;
+}
+
+.login-buttons {
+  float: right;
+  margin-right: 15px;
+  padding: 5px;
+}
+
+.login-buttons button {
+  margin: 4px;
+  width: 110px;
+  height: 25px;
+  background-color: teal;
+  border: none;
+  padding: 5px;
+}
+
+.login-buttons button:hover {
+  background-color: white;
+}
+
+.Navbar {
+  position: absolute;
+  top: 70px;
+  left: 5px;
+  height: 100%;
+  width: 80px;
+  background-color: purple;
+}
+
+.Navbar ul{
+  padding: 5px;
+  list-style: none;
+
+}
+
+.Navbar ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  height: 35px;
+}
+
+.Navbar ul li a:hover {
+  color: grey;
+  text-decoration: none;
+  display: block;
+  height: 35px;
+}

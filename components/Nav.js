@@ -4,11 +4,11 @@ import NavLink from './NavLink';
 class Nav extends React.Component {
   render() {
     return (
-      <nav className="navbar">
+      <nav className="Navbar">
         <ul>
-          <li><NavLink to="/editor">Editor</NavLink></li>
-          <li><NavLink to="/list">List</NavLink></li>
-          <li><NavLink to="/stats">Stats</NavLink></li>
+          <li><NavLink to="/editor"><i className="fa fa-pencil-square-o" aria-hidden="true"></i> Editor</NavLink></li>
+          <li><NavLink to="/list"><i className="fa fa-list" aria-hidden="true"></i> List</NavLink></li>
+          <li><NavLink to="/stats"><i className="fa fa-bar-chart-o" aria-hidden="true"></i> Stats</NavLink></li>
         </ul>
       </nav>
     )
