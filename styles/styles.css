@@ -9,15 +9,15 @@ body {
 
 .content {
   margin-top: 70px;
-  margin-left: 80px;
+  margin-left: 70px;
   padding: 0 0 6px 10px;
 }
 
 .Header {
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
-  left: 5px;
+  left: 0;
   height: 70px;
   background-color: purple;
 }
@@ -52,9 +52,9 @@ body {
 }
 
 .Navbar {
-  position: absolute;
+  position: fixed;
   top: 70px;
-  left: 5px;
+  left: 0;
   height: 100%;
   width: 80px;
   background-color: purple;
@@ -91,6 +91,7 @@ body {
 
 .toolbar-buttons {
   float: right;
+  padding-right: 2px;
 }
 
 .toolbar-selects {
