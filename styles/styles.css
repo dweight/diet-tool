@@ -10,7 +10,7 @@ body {
 .content {
   margin-top: 70px;
   margin-left: 80px;
-  padding: 0 6px 6px 10px;
+  padding: 0 0 6px 10px;
 }
 
 .Header {
@@ -78,4 +78,21 @@ body {
   text-decoration: none;
   display: block;
   height: 35px;
+}
+
+.Toolbar {
+  height: 25px;
+  background-color: grey;
+}
+
+.toolbar-buttons, .toolbar-selects {
+  display: block;
+}
+
+.toolbar-buttons {
+  float: right;
+}
+
+.toolbar-selects {
+  float: left;
 }
