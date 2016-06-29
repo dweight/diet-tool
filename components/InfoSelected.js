@@ -4,13 +4,13 @@ class InfoSelected extends React.Component {
   render() {
     return (
       //TODO - take vales from props
-      <ul>
-        <li>kcal</li>
-        <li>proteins</li>
-        <li>carbohydrates</li>
-        <li>fats</li>
-        <li>sturated fats</li>
-        <li>unsaturated fats</li>
+      <ul className="SelectedInfo">
+        <li>kcal<span>1</span></li>
+        <li>proteins<span>1</span></li>
+        <li>carbohydrates<span>1</span></li>
+        <li>fats<span>1</span></li>
+        <li>sturated fats<span>1</span></li>
+        <li>unsaturated fats<span>1</span></li>
       </ul>
     )
   }

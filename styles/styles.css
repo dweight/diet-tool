@@ -5,6 +5,8 @@ html {
 
 body {
   margin: 0;
+  max-width: 768;
+  max-height: 1366;
 }
 
 .content {
@@ -96,4 +98,31 @@ body {
 
 .toolbar-selects {
   float: left;
+}
+
+.Info {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: grey;
+  box-sizing: border-box;
+}
+
+.Info li {
+  list-style: none;
+  display: inline-block;
+  width: 33%;
+}
+
+.Info span {
+  display: block;
+  width: 33%;
+}
+
+.SelectedInfo {
+  position: fixed;
+  right: 0;
+  height: 100%;
+  background-color: grey;
+  box-sizing: border-box;
 }
